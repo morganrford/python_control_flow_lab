@@ -36,15 +36,15 @@
 # - Utilize the `in` operator to check for vowels.
 # - Ensure to provide feedback for non-alphabetical or invalid entries.
 
-# def check_letter():
-#     # Your control flow logic goes here
-#     letter = input('Enter a letter: ')
-#     if letter in ["a", "e", "i", "o", "u"]:
-#         print(f'The letter {letter} is a vowel.')
-#     else:
-#         print(f'The letter {letter} is a consonant.')
-# # Call the function
-# check_letter()
+def check_letter():
+    # Your control flow logic goes here
+    letter = input('Enter a letter: ')
+    if letter in ["a", "e", "i", "o", "u"]:
+        print(f'The letter {letter} is a vowel.')
+    else:
+        print(f'The letter {letter} is a consonant.')
+# Call the function
+check_letter()
 
 # Exercise 2: Old enough to vote?
 #
@@ -62,17 +62,17 @@
 # - Use `int()` to convert the input to an integer. Ensure to handle any conversion errors gracefully.
 # - Use a conditional statement to check if the age meets the minimum voting age requirement.
 
-# def check_voting_eligibility():
-#      # Your control flow logic goes here
-#      age = input('Please enter your age: ')
-#      voting_age = 18
-#      age = int(age)
-#      if age >= voting_age:
-#          print('You are eligible to vote.')
-#      else:
-#          print('You are too young to vote.')
-# # Call the function
-# check_voting_eligibility()
+def check_voting_eligibility():
+     # Your control flow logic goes here
+     age = input('Please enter your age: ')
+     voting_age = 18
+     age = int(age)
+     if age >= voting_age:
+         print('You are eligible to vote.')
+     else:
+         print('You are too young to vote.')
+# Call the function
+check_voting_eligibility()
 
 # Exercise 3: Calculate Dog Years
 #
@@ -92,17 +92,17 @@
 # - Convert the string input to an integer using `int()`.
 # - Apply conditional logic to perform the correct age calculation based on the dog's age.
 
-# def calculate_dog_years():
-#     # Your control flow logic goes here
-#     age = int(input("Input your dog's age: "))
-#     if age <= 2:
-#         dog_years = age * 10
-#     else:
-#         dog_years = age * 7
+def calculate_dog_years():
+    # Your control flow logic goes here
+    age = int(input("Input your dog's age: "))
+    if age <= 2:
+        dog_years = age * 10
+    else:
+        dog_years = age * 7
 
-#     print(f"The dog's age in dog years is {dog_years}")
-# # Call the function
-# calculate_dog_years()
+    print(f"The dog's age in dog years is {dog_years}")
+# Call the function
+calculate_dog_years()
 
 # Exercise 4: Weather Advice
 #
@@ -120,20 +120,20 @@
 # Hints:
 # - Use logical operators (`AND`, `OR`, `NOT`) in your if statements to handle multiple conditions.
 
-# def weather_advice():
-#     # Your control flow logic goes here
-#     cold = input('Is it cold? (yes/no) ').lower()
-#     rain = input('Is it raining? (yes/no) ').lower()
-#     if cold == "yes" and rain == "yes":
-#         print(f'Wear a waterproof coat.')
-#     elif cold == "yes" and rain == "no":
-#         print(f'Wear a warm coat.')
-#     elif cold == "no" and rain == "yes":
-#         print(f'Carry an umbrella.')
-#     else:
-#         print(f'Wear light clothing.')
-# # Call the function
-# weather_advice()
+def weather_advice():
+    # Your control flow logic goes here
+    cold = input('Is it cold? (yes/no) ').lower()
+    rain = input('Is it raining? (yes/no) ').lower()
+    if cold == "yes" and rain == "yes":
+        print(f'Wear a waterproof coat.')
+    elif cold == "yes" and rain == "no":
+        print(f'Wear a warm coat.')
+    elif cold == "no" and rain == "yes":
+        print(f'Carry an umbrella.')
+    else:
+        print(f'Wear light clothing.')
+# Call the function
+weather_advice()
 
 # Exercise 5: What's the Season?
 #
